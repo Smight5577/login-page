@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background:#dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone {
+  width: 430px;
+  height: 932px;
+  background: #f3f3f3;
+  border-radius: 42px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login-card {
+  width: 320px;
+  padding: 28px 24px;
+  background: white;
+  border-radius: 26px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+.logo {
+  width: 180px;
+  height: 120px;
+  margin: 0 auto 25px auto;
+
+  
+  border-radius: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+  font-size: 14px;
+}
+.image1{
+    width: 160px;
+    border-radius: 15px;
+    
+}
+
+h2{
+    margin-bottom: 15px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.forgot{
+    color: red;
+    text-decoration: none;
+}
+button{
+    width: 100%;
+    padding-top: 12px;
+    padding-left: 143px;
+    padding-bottom: 12px;
+    padding-right: 143px;
+    background:#46C2DE;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    gap: 8px;
+    font-size: 16px;
+    color: white;
+}
+button:hover{
+    opacity: .9;
+}
+.divider{
+    width: 365px;
+    height: 21px;
+    top: 512px;
+    left: 32px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+}
+.googlebtn{
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid  #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+.signup{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+}
